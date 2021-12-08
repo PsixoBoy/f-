@@ -21,6 +21,7 @@ namespace Курсовая_ТРПО
             InitializeComponent();
             ShowList(table_of_products);
             Product product = new Product(1, "CreditBank", 130, 100, 1000, 1000);
+            // product = new Product(2, "BlessBank", 100, 80, 100, 200);
             table_of_products.Add(product);
             product = new Product(2, "BlessBank", 100, 80, 100, 200);
             table_of_products.Add(product);
