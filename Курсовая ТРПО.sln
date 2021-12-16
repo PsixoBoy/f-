@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Курсовая ТРПО", "Курсовая ТРПО\Курсовая ТРПО.csproj", "{37578C71-1D1E-49F6-984D-D1F5E51D46EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Курсовая ТРПО", "Курсовая ТРПО\Курсовая ТРПО.csproj", "{37578C71-1D1E-49F6-984D-D1F5E51D46EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{153DD70C-3462-4646-BA2A-5E06165C5807}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{37578C71-1D1E-49F6-984D-D1F5E51D46EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37578C71-1D1E-49F6-984D-D1F5E51D46EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37578C71-1D1E-49F6-984D-D1F5E51D46EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153DD70C-3462-4646-BA2A-5E06165C5807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153DD70C-3462-4646-BA2A-5E06165C5807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153DD70C-3462-4646-BA2A-5E06165C5807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153DD70C-3462-4646-BA2A-5E06165C5807}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

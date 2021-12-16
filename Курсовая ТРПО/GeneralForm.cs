@@ -28,8 +28,18 @@ namespace Курсовая_ТРПО
 
 
         }
-        
-        
+
+        public string test()
+        {
+            string[] s = { "HelpBank", "130", "100", "1000", "1000" };
+            string test = "";
+            string one = string.Join(Convert.ToString(' '), s);
+            //textBox2.Text += one;
+            test += one;
+            return one;
+
+        }
+
         private void Add_button_Click(object sender, EventArgs e)
         {
             Shablon_Add shablon_Add = new Shablon_Add();
